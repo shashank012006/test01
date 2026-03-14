@@ -12,6 +12,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Serve static files from the 'public' folder (where frontend/dist will be copied)
+app.use(express.static(path.join(__dirname, 'public')));
+
 const JWT_SECRET = process.env.JWT_SECRET || 'lifekey_secret_demo';
 
 // Setup DB connection pool
@@ -516,6 +519,11 @@ app.post('/api/notify', async (req, res) => {
   } catch (err) {
     sendError(res, err);
   }
+});
+
+// Handle SPA routing - return index.html for all non-API paths
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 const PORT = process.env.PORT || 5000;

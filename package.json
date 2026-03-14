@@ -1,0 +1,17 @@
+{
+  "name": "lifekey-monolith",
+  "version": "1.0.0",
+  "description": "LifeKey Hospital Emergency Management System",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install && rm -rf public && mkdir -p public && cp -r ../frontend/dist/* public/",
+    "start": "cd backend && node server.js",
+    "dev": "npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
