@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-03-14",
+  "knowledge_base": {
+    "emergency_dashboard_purpose": "The Emergency Dashboard provides a real-time overview of all active admissions in the Emergency Department. It displays patient status, medical alerts, and assigned clinicians to ensure rapid response and coordination.",
+    "nurse_dashboard_purpose": "The Nurse Dashboard (Intake Station) is used for identifying new arrivals via biometrics or manual entry, provisioning emergency wristbands, and initializing patient records before full admission.",
+    "emergency_id_system": "The Emergency ID system generates unique identifiers (e.g., EM-XXXXX) for unidentified or trauma patients. These IDs allow clinical staff to track treatment and append notes until the patient's real identity is verified via biometrics or documentation.",
+    "patient_profile_content": "A patient profile includes the Emergency ID, Name (if known), Age, Blood Group, known Allergies, Chronic Conditions, Current Medications, and a timeline of recent status changes.",
+    "workflow_search": "To search for a patient: 1. Navigate to the 'Search Patient' tab. 2. Enter the Patient ID or Name in the search field. 3. View the patient's record and clinical history.",
+    "workflow_discharge": "To discharge a patient: 1. Locate the patient card on the Emergency Dashboard. 2. Click the 'Discharge' button. 3. Provide discharge notes and confirm. The record will be moved to the archival logs.",
+    "workflow_manual_entry": "To manually add a patient: 1. Click the 'Manual Entry' button on the Emergency Dashboard. 2. Fill in the required fields (Name defaults to 'Unknown Patient' if left blank). 3. Submit to create a temporary Emergency ID record.",
+    "term_severe": "Severe Condition: Indicates a patient with significant injuries or illnesses requiring immediate clinical intervention and continuous monitoring.",
+    "term_emergency": "Emergency Condition: Indicates a patient requiring urgent care but whose vitals are currently stable compared to critical cases.",
+    "term_normal": "Normal Condition: Indicates a patient requiring routine treatment or observation who is not in immediate distress.",
+    "term_admission_time": "Admission Time: The exact timestamp when the patient was first checked into the system, used to track length of stay and priority.",
+    "term_emergency_id": "Emergency ID: A unique temporary identifier used to manage trauma patients until their identity is definitively established."
+  }
+}

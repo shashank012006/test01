@@ -1,0 +1,6 @@
+
+> lifekey-backend@1.0.0 start
+> node server.js
+
+LifeKey Backend running on port 5005
+✅ MySQL Database Connected

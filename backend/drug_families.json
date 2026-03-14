@@ -1,0 +1,10 @@
+{
+  "penicillin": ["amoxicillin", "ampicillin", "piperacillin", "penicillin g", "penicillin v"],
+  "nsaids": ["ibuprofen", "aspirin", "naproxen", "diclofenac", "celecoxib"],
+  "beta_blockers": ["metoprolol", "atenolol", "propranolol", "bisoprolol"],
+  "statins": ["atorvastatin", "simvastatin", "rosuvastatin", "pravastatin"],
+  "opioids": ["morphine", "fentanyl", "oxycodone", "codeine", "tramadol"],
+  "antibiotics": ["azithromycin", "ciprofloxacin", "amoxicillin", "ceftriaxone", "doxycycline"],
+  "sulfa_drugs": ["sulfamethoxazole", "sulfasalazine", "sulfisoxazole"],
+  "anticoagulants": ["warfarin", "heparin", "rivaroxaban", "apixaban"]
+}
